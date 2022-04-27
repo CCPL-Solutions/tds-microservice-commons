@@ -8,9 +8,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>co.com.viveres.susy.microservicecommons</groupId>
-	<artifactId>microservice-commons</artifactId>
+	<artifactId>tds-microservice-commons</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice-commons</name>
+	<name>tds-microservice-commons</name>
 	<description>Microservice commons viveres susy</description>
 	<properties>
 		<java.version>11</java.version>
