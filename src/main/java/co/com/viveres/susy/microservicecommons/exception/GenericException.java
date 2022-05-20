@@ -1,4 +1,4 @@
-package co.com.viveres.susy.microservicecommons.exceptions;
+package co.com.viveres.susy.microservicecommons.exception;
 
 import co.com.viveres.susy.microservicecommons.entity.MessageEntity;
 
