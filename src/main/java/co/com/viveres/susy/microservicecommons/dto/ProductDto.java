@@ -8,6 +8,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 import co.com.viveres.susy.microservicecommons.validation.AssociateProductToSupplierValidation;
+import co.com.viveres.susy.microservicecommons.validation.ICreateOrderValidation;
 import co.com.viveres.susy.microservicecommons.validation.ICreateProductValidation;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -19,7 +20,7 @@ public class ProductDto implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	@NotNull(groups = AssociateProductToSupplierValidation.class)
+	@NotNull(groups = {AssociateProductToSupplierValidation.class, ICreateOrderValidation.class})
 	@ApiModelProperty(notes = "Product Id", example = "1",readOnly = true, required = false)
 	private Long id;
 
